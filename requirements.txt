@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+ginza==5.2.0
+ginza-transformers==0.4.2
+ipython
+ja-ginza==5.2.0
+# jupyterlab==4.1.6
+spacy[cuda11x]==3.7.4
+spacy-transformers==1.1.9
+# 大容量モデルファイルを含めたインストールを行うには、次のようにGitHubのリリースアーカイブを指定する
+# https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-with-model.tar.gz
+# https://github.com/megagonlabs/ginza/releases/download/latest/ja_ginza_electra-latest-with-model.tar.gz
